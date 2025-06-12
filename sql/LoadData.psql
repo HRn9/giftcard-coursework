@@ -1,0 +1,8 @@
+\COPY "Users" FROM './data/Users.csv' WITH CSV HEADER;
+\COPY "GiftCardTypes" FROM './data/GiftCardTypes.csv' WITH CSV HEADER;
+\COPY "GiftCards" FROM './data/GiftCards.csv' WITH CSV HEADER;
+\COPY "TransactionTypes" FROM './data/TransactionTypes.csv' WITH CSV HEADER;
+\COPY "MerchantCategories" FROM './data/MerchantCategories.csv' WITH CSV HEADER;
+\COPY "Merchants" FROM './data/Merchants.csv' WITH CSV HEADER;
+\COPY "Transactions" FROM './data/Transactions.csv' WITH CSV HEADER;
+\COPY "Promotions" FROM './data/Promotions.csv' WITH CSV HEADER;
